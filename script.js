@@ -183,7 +183,7 @@ const quizData = [
         options: [
             "Tỷ-kheo an trụ giới, luật nghi... thấy tội nhỏ nhặt chưa sanh lòng sợ hãi.",
             "Giữ gìn giới luật nghiêm túc từng phần... giúp hành giả luôn hưởng thượng.",
-            "Tỷ-kheo an trụ Giới Ba-la-đề-mộc-xoa, đầy đủ oai nghi hành xử, thấy tội vị tế (nhỏ nhặt) sanh lòng sợ hãi, thọ trì học giới."
+            "Tỷ-kheo an trụ Giới Ba-la-đề-mộc-xoa, đầy đủ oai nghi hành xử, thấy tội vi tế (nhỏ nhặt) sanh lòng sợ hãi, thọ trì học giới."
         ],
         correctAnswer: 2,
         explanation: "Người tu phải an trụ luật nghi Ba-la-đề-mộc-xoa, đầy đủ oai nghi, và đối với những lỗi nhỏ nhặt cũng sinh lòng sợ hãi cẩn trọng."
@@ -342,7 +342,7 @@ const quizData = [
         question: "Câu 34: 10 loại lợi ích trong các bộ kinh luật dùng từ ngữ là:",
         options: [
             "Tăng kỳ luật: 10 việc lợi ích; Tứ phần luật: mười phúc lợi; Tạp a hàm: mười cú nghĩa; Tăng nhất a hàm: mười việc công đức,",
-            "Tăng kỳ luật: 10 việc lợi ích, Tứ phần luật: mười có nghĩa, Tạp a hàm: mười phúc lợi. Tăng nhất a hàm: mười việc công đức.",
+            "Tăng kỳ luật: 10 việc lợi ích, Tứ phần luật: mười cú nghĩa, Tạp a hàm: mười phúc lợi. Tăng nhất a hàm: mười việc công đức.",
             "Tăng kỳ luật: 10 việc lợi ích. Tứ phần luật: mười có nghĩa, Tạp a hàm: mười việc công đức, Tăng nhất a hàm: mười phúc lợi."
         ],
         correctAnswer: 1,
