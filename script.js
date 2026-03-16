@@ -1,620 +1,743 @@
 const quizData = [
     {
-        question: "Câu 1: Trong phẩm Tựa, Tôn giả A-nan đã phó chúc Khế kinh Tăng Nhất A-hàm cho vị Tôn giả nào?",
+        question: "Câu 1: Định nghĩa “phòng phi chỉ ác” được dùng để chỉ ý nghĩa của khái niệm nào sau đây?",
         options: [
-            "Tôn giả Ca-diếp",
-            "Tôn giả Mục-kiền-liên",
-            "Tôn giả Ưu-đa-la",
-            "Tôn giả Xá-lợi-phất"
-        ],
-        correctAnswer: 2,
-        explanation: "Trong văn bản phẩm Tựa, người được phó chúc là Tôn giả Ưu-đa-la. Hậu quả của việc xem thường kinh được xác định cụ thể là ĐOẠ LẠC XUỐNG HÀNG PHÀM PHU (mất đi cơ hội giải thoát), chứ không nói chung chung là đọa địa ngục hay mất phước."
-    },
-    {
-        question: "Câu 2: Lời cảnh báo của Tôn giả A-nan đối với người xem thường Khế kinh Tăng Nhất A-hàm là gì?",
-        options: [
-            "Sẽ bị đọa vào địa ngục vô gián.",
-            "Liền bị đọa lạc xuống hàng phàm phu.",
-            "Mất hết phước báu trong hiện tại.",
-            "Đời đời sinh ra bần cùng, ngu si."
+            "a. Học xứ",
+            "b. Giới luật",
+            "c. Sìla"
         ],
         correctAnswer: 1,
-        explanation: "Trong văn bản phẩm Tựa, người được phó chúc là Tôn giả Ưu-đa-la. Hậu quả của việc xem thường kinh được xác định cụ thể là ĐOẠ LẠC XUỐNG HÀNG PHÀM PHU (mất đi cơ hội giải thoát), chứ không nói chung chung là đọa địa ngục hay mất phước."
+        explanation: "“Phòng phi chỉ ác” nghĩa là: Phòng → ngăn ngừa, Phi → điều sai trái, Chỉ → dừng lại, Ác → điều xấu. Tức là: ngăn ngừa điều sai và dừng các điều ác. Đây chính là ý nghĩa của “Giới” (Sīla) trong Phật giáo."
     },
     {
-     question: "Câu 3: Tôn giả A-nan cho biết giá trị đặc biệt của kinh này thế nào?",
+        question: "Câu 2: Theo Kinh Hoa Nghiêm, giới được ví như là gì?",
         options: [
-            "Là giáo pháp chuyên về thiền định và trí tuệ.",
-            "Là giáo pháp chỉ dành cho bậc xuất gia thọ cụ túc giới.",
-            "Là giáo pháp sanh ra ba mươi bảy đạo phẩm và các pháp đều từ đây sanh ra.",
-            "Là tập hợp các giới luật căn bản của chư Phật."
+            "a. Con đường tu tập",
+            "b. Gốc vô thượng Bồ đề",
+            "c. Pháp điều chỉnh thân tâm"
+        ],
+        correctAnswer: 1,
+        explanation: "Trong Kinh Hoa Nghiêm có câu nổi tiếng: “Giới thị vô thượng Bồ-đề bổn.” Nghĩa là Giới là gốc của Vô thượng Bồ-đề."
+    },
+    {
+        question: "Câu 3: Trong Kinh A Hàm, “Tư niệm là giới” được nhắc đến trong kinh nào?",
+        options: [
+            "a. Kinh Giới",
+            "b. Kinh Chủng Đức",
+            "c. Kinh Ngũ chi vật chủ"
+        ],
+        correctAnswer: 1,
+        explanation: "Trong Kinh A-hàm, nội dung nói: Tư niệm là giới, Luật nghi / Oai nghi là giới, Tâm sở là giới được đề cập trong Kinh Chủng Đức."
+    },
+    {
+        question: "Câu 4: Theo Tạp A hàm, “Tăng thượng giới học” được mô tả như thế nào?",
+        options: [
+            "a. Chuyên niệm không quên tu hành tam vô lậu học.",
+            "b. Giới phát sanh từ tâm.",
+            "c. An trụ giới, luật nghi Ba - la - đề - mộc – xoa, đầy đủ oai nghi, thấy tội nhỏ nhặt sanh lòng sợ hãi."
         ],
         correctAnswer: 2,
-        explanation: "Kinh văn khẳng định vị thế NGUỒN CỘI của Tăng Nhất A-hàm là nơi sinh ra 37 phẩm trợ đạo và tất cả các pháp.",
+        explanation: "Trong Tạp A-hàm, khi nói về tăng thượng giới học, kinh mô tả người tu: an trụ giới luật, giữ Ba-la-đề-mộc-xoa luật nghi, đầy đủ oai nghi, đối với tội nhỏ nhặt cũng sinh tâm sợ hãi."
     },
     {
-        question: "Câu 4: Bài kệ nào được Tôn giả A-nan viện dẫn để chứng minh chỉ cần một bài kệ trong Tăng Nhất A-hàm cũng có đủ 37 đạo phẩm?",
+        question: "Câu 6: Hai loại giới theo ý nghĩa là gì?",
         options: [
-            "Các hành vô thường / Là pháp sanh diệt.",
-            "Tâm dẫn đầu các pháp / Tâm làm chủ, tâm tạo.",
-            "Không làm mọi điều ác / Thành tựu các hạnh lành.",
-            "Chớ làm các việc ác / Siêng tu các hạnh lành / Giữ tâm mình thanh tịnh / Là lời chư Phật dạy."
+            "a. Giới tại gia và giới xuất gia",
+            "b. Hữu lậu giới và vô lậu giới",
+            "c. Chỉ ác giới và Tác thiện giới (Chỉ trì giới và Tác trì giới)"
+        ],
+        correctAnswer: 2,
+        explanation: "Phân loại giới theo ý nghĩa có 2 loại: Chỉ trì giới (ngăn không làm điều ác) và Tác trì giới (siêng làm điều thiện)."
+    },
+    {
+        question: "Câu 7: Trước khi có các quy định về giới, Tăng đoàn được nhiếp bằng phương pháp nào?",
+        options: [
+            "a. Bát chánh đạo",
+            "b. Lục hòa",
+            "c. Y pháp nhiếp Tăng"
+        ],
+        correctAnswer: 2,
+        explanation: "12 năm đầu sau khi thành đạo, Tăng đoàn chưa có giới điều cụ thể. Các đệ tử nghe pháp rồi tự sống đúng theo chánh pháp, gọi là “Y pháp nhiếp Tăng”."
+    },
+    {
+        question: "Câu 8: Đức Phật bắt đầu chế giới sau bao nhiêu năm thành đạo?",
+        options: [
+            "a. 5 năm",
+            "b. 10 năm",
+            "c. 12 năm"
+        ],
+        correctAnswer: 2,
+        explanation: "12 năm đầu Tăng đoàn chưa có giới điều. Khi bắt đầu có những trường hợp vi phạm, Đức Phật mới tùy phạm mà chế giới."
+    },
+    {
+        question: "Câu 9: Theo các vị Phật Tỳ Bà Thi, Thi Khí và Tỳ Xá Phù, phạm hạnh không cửu trụ là do thiếu yếu tố nào?",
+        options: [
+            "a. Không có đệ tử",
+            "b. Không quảng thuyết khế kinh, không kết giới và không thuyết giới",
+            "c. Không tu tập thiền định"
+        ],
+        correctAnswer: 1,
+        explanation: "Ba vị Phật này phạm hạnh không cửu trụ vì không quảng thuyết khế kinh, không kết giới và không thuyết Ba-la-đề-mộc-xoa."
+    },
+    {
+        question: "Câu 10: Trong ba nghĩa của “Giới luật”, nghĩa thứ nhất liên quan đến",
+        options: [
+            "A. Học xứ – những điều cần học tập",
+            "B. Giới điều – quy định hành vi của người tu",
+            "C. Sìla – hành vi, tập quán, tính cách, đạo đức",
+            "D. Sự tu tập và thiền định"
+        ],
+        correctAnswer: 2,
+        explanation: "Ba nghĩa của giới luật: 1. Sīla (hành vi, đạo đức); 2. Học xứ (những điều cần học và thực hành); 3. Giới điều."
+    },
+    {
+        question: "Câu 11: Theo Phạn Anh từ điển của M. Monier–Williams “giới” có nghĩa:",
+        options: [
+            "A. Conduct, dicposition, nature",
+            "B. Morality, custom, a moral precept",
+            "C. Conduct, hebit, usage",
+            "D. Cả A, B, C"
         ],
         correctAnswer: 3,
-        explanation: "Bài kệ được ngài A-nan viện dẫn để chứng minh sự bao hàm toàn bộ giới, định, tuệ (37 đạo phẩm) trong Tăng Nhất A-hàm.",
+        explanation: "Trong từ điển của Monier–Williams, Śīla được giải thích với nhiều nghĩa như: hành vi, tính cách, bản tính, đạo đức, thói quen, giới điều."
     },
     {
-        question: "Câu 5: Tôn giả A-nan trả lời thế nào khi được Tôn giả Ca-diếp hỏi vì sao giao phó Tăng nhất A-hàm mà không trao truyền hết thảy các pháp?",
+        question: "Câu 12: “Giới” ngôn ngữ Pali là:",
         options: [
-            "Tăng Nhất A-hàm là bộ kinh tóm tắt dễ nhớ nhất.",
-            "Tăng nhất A-hàm tức là các pháp, các pháp chính là Tăng nhất A-hàm, vốn chỉ là một mà không có hai.",
-            " Các kinh khác đã được phó chúc cho các đại đệ tử khác.",
-            "Chúng sanh thời mạt pháp chỉ có thể thọ trì bộ kinh này."
-        ],
-        correctAnswer: 1,
-        explanation:"Câu trả lời mang tính triết học BẤT NHỊ và tính bao trùm, khẳng định Tăng Nhất A-hàm đại diện trọn vẹn cho toàn bộ giáo pháp",
-    },
-    {
-        question: "Câu 6: Trong Kinh Công Đức Niệm Phật, Đức Phật dạy phương pháp tu niệm Phật như thế nào?",
-        options: [
-            "Chuyên tâm trì niệm danh hiệu Đức Phật A Di Đà.",
-            "Lạy Phật mỗi ngày và tụng đọc kinh điển.",
-            "Kiết-già tĩnh tọa, buộc niệm một chỗ, nhất tâm quán tưởng và nhớ nghĩ công đức Như Lai: đầy đủ mười lực, bốn vô sở úy.",
-            "Xây dựng hình tượng Phật và cúng dường hoa hương."
-        ],
-        correctAnswer: 2,
-        explanation:"NIỆM PHẬT trong A-hàm là pháp hành thiền quán, quán niệm ân đức/phẩm chất giác ngộ của Phật như Thập lực, Tứ vô sở úy...",
-    },
-     {
-        question: "Câu 7: Trong Kinh Công Đức Niệm Pháp, Đức Phật dạy tu niệm Pháp như thế nào?",
-        options: [
-            "Hành giả chỉ cần chuyên cần đọc tụng kinh điển hàng ngày, ghi nhớ mặt chữ mà không cần quán chiếu nội tâm.",
-            "Hành giả an trú chánh niệm, chuyên tâm niệm Pháp, quán Chánh pháp là pháp đưa đến vô dục, xa lìa trói buộc và ngăn che, không bị loạn tưởng pha tạp.",
-            "Hành giả tập trung vào việc cầu xin sự gia hộ của chư Phật để đạt được phước báu nhân thiên, sung túc ở đời này.",
-            "Hành giả tu tập bằng cách ép xác khổ hạnh một cách nghiêm ngặt để nhanh chóng đoạn trừ mọi phiền não thế gian."
-        ],
-        correctAnswer: 1,
-        explanation:"Niệm Pháp là hướng tâm và quán sát đặc tính 'ly dục, vô nhiệt, giải thoát' của Chánh pháp, từ đó tâm hành giả cũng trở nên tịch tĩnh, xa lìa trói buộc.",
-    },
-    {
-        question: "Câu 8: Trong Kinh Công Đức Niệm Pháp, đặc tính cốt lõi của Chánh pháp mà hành giả cần quán niệm là gì?",
-        options: [
-            "Là pháp vi diệu nhiệm mầu, thâm sâu khó hiểu.",
-            "Là pháp đưa đến vô dục, xa lìa trói buộc và ngăn che, không bị loạn tưởng pha tạp.",
-            "Là pháp mang lại phước báu nhân thiên tức thì.",
-            "Là pháp tổng hợp toàn bộ triết lý thế gian."
-        ],
-        correctAnswer: 1,
-        explanation:"Niệm Pháp là hướng tâm và quán sát đặc tính 'ly dục, vô nhiệt, giải thoát' của Chánh pháp, từ đó tâm hành giả cũng trở nên tịch tĩnh, xa lìa trói buộc.",
-
-    },
-    {
-        question: "Câu 9: Đối tượng Thánh chúng trong Kinh Công Đức Niệm Tăng KHÔNG bao gồm đặc tính nào dưới đây?",
-        options: [
-            "Thành tựu giới, định, tuệ, giải thoát, giải thoát tri kiến.",
-            "Gồm bốn đôi tám bậc.",
-            "Là ruộng phước của thế gian.",
-            "Là những vị đã dứt sạch nhân duyên sinh tử, hiện thân Phật."
+            "A. Śīla",
+            "B. Sīlā",
+            "C. Śila",
+            "D. Sīla"
         ],
         correctAnswer: 3,
-        explanation:"Đối tượng \"Tăng\" mà hành giả hướng tâm đến có đặc điểm: thành tựu giới, định, tuệ, giải thoát và giải thoát tri kiến; gồm bốn đôi tám bậc; là ruộng phước của thế gian.",
-
+        explanation: "Trong Phật học: ngôn ngữ Pāli là Sīla, Sanskrit là Śīla."
     },
     {
-        question: "Câu 10: Trong Kinh Công Đức Niệm Tịch Lặng, Đức Phật dạy cách tu như thế nào?",
+        question: "Câu 13: “Học xứ” trong giới luật có nghĩa:",
         options: [
-            "Hành giả kiết-già tĩnh tọa, buộc niệm một chỗ, chuyên niệm tịch lặng; dứt trừ nghĩ tưởng, tâm lắng trong, không vọng động.",
-            "Hành giả kiết-già tĩnh tọa, buộc niệm một chỗ, trì chú liên tục trong im lặng.",
-            "Hành giả kiết-già tĩnh tọa, buộc niệm một chỗ, quán sát sự vô thường của thân thể.",
-            "Hành giả kiết-già tĩnh tọa, buộc niệm một chỗ, tách biệt hoàn toàn khỏi đời sống xã hội."
-        ],
-        correctAnswer: 0
-    },
-    {
-        question: "Câu 11: Trong Kinh Ưu-bà-di Dạy Con Trai, người mẹ khuyên con nếu sống tại gia thì noi theo hình mẫu nào?",
-        options: [
-            "Trưởng giả Cấp Cô Độc và Lộc Tử Mẫu.",
-            "Trưởng giả Chất-đa và đồng tử Tượng.",
-            "Tỳ-kheo Xá-lợi-phất và Tỳ-kheo Mục-kiền-liên.",
-            "Trưởng giả Duy-ma-cật và đồng tử Thiện Tài."
-        ],
-        correctAnswer: 1,
-        explanation:"Chất-đa và Đồng tử Tượng là hai cư sĩ đệ nhất được Phật tán thán.",
-    },
-     {
-        question: "Câu 12: Trong Kinh Ưu-bà-di Dạy Con Trai, người mẹ khuyên con nếu xuất gia thì noi theo hình mẫu nào?",
-        options: [
-            "Trưởng giả Cấp Cô Độc và Lộc Tử Mẫu.",
-            "Trưởng giả Chất-đa và đồng tử Tượng.",
-            "Tỳ-kheo Xá-lợi-phất và Tỳ-kheo Mục-kiền-liên.",
-            "Trưởng giả Duy-ma-cật và đồng tử Thiện Tài."
-        ],
-        correctAnswer: 1,
-        explanation:"Xá-lợi-phất và Mục-kiền-liên là hai thượng thủ Tăng. Đây là những vị chuẩn mực được nêu trong kinh.",
-    },
-    {
-        question: "Câu 13: Nếu người con gái chọn con đường xuất gia (Kinh Ưu-bà-di Dạy Con Gái), người mẹ khuyên nên noi gương ai?",
-        options: [
-            "Tỳ-kheo-ni Liên Hoa Sắc và Tỳ-kheo-ni Đại Ái Đạo.",
-            "Ưu-bà-di Câu-thù-đa-la và Nan-đà Mẫu.",
-            "Tỳ-kheo-ni Sấm-ma và Tỳ-kheo-ni Ưu-bát Hoa Sắc.",
-            "Tỳ-kheo-ni Gia-du-đà-la và Tỳ-kheo-ni Sấm-ma."
-        ],
-        correctAnswer: 2,
-        explanation:" Văn bản kinh Tăng Nhất A-hàm cụ thể nêu tên: Câu-thù-đa-la (đệ nhất đa văn cư sĩ nữ) và Nan-đà Mẫu (đệ nhất thiền định cư sĩ nữ); Sấm-ma (đệ nhất trí tuệ Ni) và Ưu-bát Hoa Sắc (đệ nhất thần thông Ni).",
-    },
-    {
-        question: "Câu 14: Trong Kinh Ưu-bà-di Dạy Con Gái, những Nữ cư sĩ nào được nêu làm gương sáng? ",
-        options: [
-            "Tỳ-kheo-ni Liên Hoa Sắc và Tỳ-kheo-ni Đại Ái Đạo.",
-            "Ưu-bà-di Câu-thù-đa-la và Nan-đà Mẫu.",
-            "Tỳ-kheo-ni Sấm-ma và Tỳ-kheo-ni Ưu-bát Hoa Sắc.",
-            "Tỳ-kheo-ni Gia-du-đà-la và Tỳ-kheo-ni Sấm-ma."
-        ],
-        correctAnswer: 1,
-        explanation:" Văn bản kinh Tăng Nhất A-hàm cụ thể nêu tên: Câu-thù-đa-la (đệ nhất đa văn cư sĩ nữ) và Nan-đà Mẫu (đệ nhất thiền định cư sĩ nữ); Sấm-ma (đệ nhất trí tuệ Ni) và Ưu-bát Hoa Sắc (đệ nhất thần thông Ni).",
-    },
-    {
-        question: "Câu 15: Trong kinh Đạo Phẩm, ghi “Có một người mà khi xuất hiện ở đời liền có ba mươi bảy đạo phẩm xuất hiện ở đời”. Người ấy là ai?",
-        options: [
-            "Chuyển Luân Thánh Vương.",
-            "Đức Như Lai - Bậc A-la-hán Đẳng Chánh Giác.",
-            "Bồ Tát Nhất Sanh Bổ Xứ.",
-            "Các vị Thanh Văn đại đệ tử."
-        ],
-        correctAnswer: 1,
-        explanation:"Đó là đức Như Lai, bậc A-la-hán Ðẳng Chánh Giác. Các vị khác dù vĩ đại nhưng không phải là nguồn gốc làm xuất hiện trọn vẹn 37 đạo phẩm.",
-    },
-    {
-        question: "Câu 16: Trong kinh Đạo Phẩm, Ba mươi bảy đạo phẩm là gì?",
-        options: [
-            "4 niệm xứ, 4 chánh cần, 4 như ý túc, 5 căn, 5 lực, 7 giác chi, 8 chánh đạo.",
-            "4 niệm xứ, 4 chánh đoạn, 4 thần túc, 5 căn, 5 lực, 7 giác chi, 8 Thánh đạo.",
-            "4 niệm xứ, 4 chánh đoạn, 4 như ý túc, 5 căn, 5 lực, 7 bồ-đề phần, 8 Thánh đạo.",
-            "4 chánh niệm, 4 chánh đoạn, 4 thần túc, 5 căn, 5 lực, 7 giác chi, 8 Thánh đạo."
-        ],
-        correctAnswer: 1,
-        explanation:"Cần phân biệt chính xác thuật ngữ dùng trong bản kinh này (ví dụ dùng 'chánh đoạn' thay vì 'chánh cần', 'thần túc' thay vì 'như ý túc'",
-    },
-    {
-        question: "Câu 17: Trong kinh Mất Hẳn, cho biết “Nếu đức Như Lai không còn nơi cõi đời thì ba mươi bảy đạo phẩm cũng sẽ diệt tận.” Đức Phật dạy cần phải làm gì?",
-        options: [
-            "Phải luôn cung kính chư Phật.",
-            "Phải xây dựng nhiều chùa tháp.",
-            "Phải kết tập kinh điển.",
-            "Phải truyền bá pháp môn niệm Phật."
+            "A. Những điều, đối tượng cần phải học tập",
+            "B. Nơi học tập",
+            "C. Các điều đã được quy định thành văn trong luật",
+            "D. A và C"
         ],
         correctAnswer: 0,
-        explanation:"Để đối trị sự diệt tận của chánh pháp khi Phật vắng bóng, kinh dạy hạnh cung kính chư Phật là nền tảng.",
+        explanation: "Học xứ (Śikṣāpada) nghĩa là những điều cần học và thực hành trong đời sống tu tập."
     },
     {
-        question: "Câu 18: Trong kinh Tâm Nhanh Nhạy, Đức Phật dạy “người phàm phu thì khó có thể quán sát được tâm ý.” Vậy cần phải làm gì?",
+        question: "Câu 14: “Giới” mang nghĩa:",
         options: [
-            "Buông xả mọi ý niệm.",
-            "Luôn hàng phục tâm ý, khiến hướng theo đường lành.",
-            "Tìm nơi thanh vắng để ép xác tu khổ hạnh.",
-            "Mặc kệ tâm ý vì nó vốn vô thường."
-        ],
-        correctAnswer: 1,
-        explanation:"Đối với cái tâm nhanh nhạy khó bắt, giải pháp thực tiễn Đức Phật dạy là chủ động hàng phục và dẫn dắt nó về nẻo thiện (đường lành).",
-    },
-    {
-        question: "Câu 19: Hình ảnh nào được dùng để ví dụ cho sự nhanh nhạy, niệm trước và niệm sau không giống nhau của tâm (Kinh Tâm Vô Thường)?",
-        options: [
-            "Dòng thác chảy xiết.",
-            "Bóng chớp trên trời.",
-            "Khỉ vượn chuyền cành.",
-            "Ngựa hoang chạy rông."
+            "A. Quy định những điều bất thiện trong phạm vi tôn giáo",
+            "B. Quy định đức xấu nơi đạo đức thế gian",
+            "C. Phòng phi chỉ ác",
+            "D. Quy chuẩn kinh doanh, pháp luật, kể cả việc điều dưỡng sức khỏe"
         ],
         correctAnswer: 2,
-        explanation:"Hình ảnh so sánh trong kinh: 'Giống như khỉ vượn, vừa buông cành này liền chụp cành kia, lòng không an định. Tâm cũng như thế, niệm trước và niệm sau đã không giống nhau'. Hình ảnh 'khỉ vượn chuyền cành' minh họa cho sự phan duyên và biến đổi chớp nhoáng của tâm.",
+        explanation: "Trong Phật giáo, giới (Sīla) được định nghĩa là phòng phi chỉ ác, nghĩa là phòng ngừa điều sai trái và ngăn dừng các điều ác."
     },
     {
-        question: "Câu 20: Kinh Đọa Lạc chỉ ra nguyên nhân trực tiếp nhất khiến một người đọa địa ngục nhanh như khoảnh khắc co duỗi tay lúc qua đời là gì?",
+        question: "Câu 15: “Tư niệm là giới\" nghĩa này trong kinh:",
         options: [
-            "Khởi tâm tham ái tài sản.",
-            "Ôm tâm tà kiến đoạn diệt.",
-            "Ôm tâm sân hận.",
-            "Tiếc nuối người thân."
-        ],
-        correctAnswer: 2,
-        explanation:"Mặc dù tham và tà kiến đều nguy hiểm, nhưng kinh nhấn mạnh tâm sân hận (tâm hành xấu ác) lúc cận tử là lực đẩy trực tiếp xuống địa ngục nhanh nhất.",
-    },
-    {
-        question: "Câu 21: Trong kinh Sanh Thiên, Đức Phật dạy thế nào về một Người được sanh lên cõi trời nhanh như khoảnh khắc co duỗi cánh tay, khi người ấy qua đời?",
-        options: [
-            "Lúc khởi tâm thiện diệu.",
-            "Lúc dứt sạch hoàn toàn lậu hoặc.",
-            "Lúc đang tụng đọc kinh điển.",
-            "Lúc đang làm phước bố thí."
-        ],
-        correctAnswer: 0,
-        explanation:"Tương ứng với chiều ác, tâm hành thiện diệu lúc lâm chung đưa người tái sanh thiên giới.",
-    },
-    {
-        question: "Câu 22: Trong kinh Dục Tưởng, Đức Phật dạy nếu tâm loạn tưởng thì khiến cho các tưởng dục, sân, thụy miên, trạo cử, nghi chưa sinh LIỀN sinh khởi, đã khởi LẠI khiến tăng trưởng, vậy cần phải tu tập thế nào?",
-        options: [
-            "Phải luôn chánh niệm.",
-            "Phải luôn chuyên tâm quán tưởng bất tịnh.",
-            "Phải luôn tu tập từ bi quán.",
-            "Phải luôn thực hành sổ tức quán (đếm hơi thở)."
-        ],
-        correctAnswer: 0,
-        explanation:"Loạn tưởng là gốc của triền cái, nên đối trị là chánh niệm (không loạn tưởng).",
-    },
-    {
-        question: "Câu 23: Trong kinh Dục Tưởng, Đức Phật đã dạy pháp tu tập như thế nào khiến cho các tưởng dục, sân, thụy miên, trạo cử, nghi chưa sinh thì KHÔNG sinh khởi, đã sinh khởi liền bị TRỪ DIỆT?",
-        options: [
-            "Phải luôn chánh niệm.",
-            "Phải luôn chuyên tâm quán tưởng bất tịnh.",
-            "Phải luôn tu tập từ bi quán.",
-            "Phải luôn thực hành sổ tức quán (đếm hơi thở)."
-        ],
-        correctAnswer: 1,
-        explanation:"Kinh xác định Quán bất tịnh là pháp đặc hiệu nhất để chặn đứng dòng chảy của dục tưởng và 5 triền cái trong bối cảnh này.",
-    },
-    {
-        question: "Câu 24: Định nghĩa của \"Hạnh không buông lung\" trong kinh Không Buông Lung là gì?",
-        options: [
-            "Không ngủ quá nhiều.",
-            "Siêng năng làm việc thiện.",
-            "Đó là phòng hộ tâm.",
-            "Giữ gìn giới luật nghiêm ngặt."
-        ],
-        correctAnswer: 2,
-        explanation:"Định nghĩa cụ thể của kinh về 'Không buông lung' chính là phòng hộ tâm (ngăn ngừa lậu hoặc).",
-    },
-    {
-        question: "Câu 25: Trong kinh Không Buông Lung, đã dạy pháp hộ Tâm như thế nào?",
-        options: [
-            "Luôn phòng hộ tâm hữu lậu, pháp hữu lậu; dục lậu, hữu lậu, vô minh lậu chưa sanh thì khiến không sanh, đã sanh liền khéo trừ diệt.",
-            "Luôn giữ tâm hoan hỷ trước mọi hoàn cảnh, không khởi niệm thiện hay ác để nhanh chóng đạt được trạng thái thiền định sâu.",
-            "Phải liên tục trì tụng kinh chú hàng ngày để nhờ tha lực của chư Phật gia hộ, giúp tâm không bị tà ma ngoại đạo quấy phá.",
-            "Xa lánh hoàn toàn xã hội trần tục, tìm nơi thâm sơn cùng cốc để thực hành khổ hạnh, triệt tiêu mọi cảm thọ của cơ thể."
-        ],
-        correctAnswer: 0,
-        explanation:"Nội dung chi tiết: 'Luôn phòng hộ tâm hữu lậu, pháp hữu lậu,… tu tập hạnh không buông lung là phải luôn tự mình thận trọng; dục lậu, hữu lậu, vô minh lậu chưa sanh thì khiến không sanh, đã sanh liền khéo trừ diệt.' Pháp hộ tâm cụ thể là thận trọng ngăn ngừa và trừ diệt ba loại lậu hoặc (dục, hữu, vô minh).",
-    },
-    {
-        question: "Câu 25: Trong kinh Không Buông Bỏ Thiện Pháp, \"Thiện pháp\" là gì?",
-        options: [
-            "Mười thiện nghiệp.",
-            "Bố thí, trì giới, nhẫn nhục.",
-            "Tám đạo phẩm của bậc Hiền thánh (Bát chánh đạo).",
-            "Lục độ Ba-la-mật."
-        ],
-        correctAnswer: 2,
-        explanation:"\"Đó là tám đạo phẩm của bậc Hiền thánh, gồm có: Chánh kiến, chánh tinh tấn, chánh ngữ, chánh nghiệp, chánh mạng, chánh tư duy, chánh niệm và chánh định.\"",
-    },
-    {
-        question: "Câu 26: Theo Kinh Tạo Phước, ranh giới giữa Phước và Vô phước được định nghĩa dựa trên yếu tố nào?",
-        options: [
-            "Số lượng tài sản cúng dường.",
-            "Báo ứng thọ lạc (phước) và Nguồn gốc các khổ (vô phước).",
-            "Sự khen ngợi hay chê bai của người đời.",
-            "Động cơ khi làm việc thiện."
-        ],
-        correctAnswer: 1,
-        explanation:"Định nghĩa dựa trên cảm thọ quả báo: \"Báo ứng thọ lạc rất được yêu kính. Đây gọi là phước... Nguồn gốc của các khổ, những thứ sầu, lo, khổ, não không thể tính kể, không được yêu thích. Ðây gọi là vô phước.\"",
-    },
-    {
-        question: "Câu 27: Bài kệ trong Kinh Ma Ba-tuần đúc kết điều gì về Phước?",
-        options: [
-            "Phước báu vốn là vô thường, không nên chấp trước.",
-            "Có phước an lạc, không phước khổ sầu; đời này đời sau nhờ phước an lạc.",
-            "Phước báu cõi trời cũng không bằng phước xuất gia.",
-            "Chỉ cần vô ngã là có toàn bộ phước."
-        ],
-        correctAnswer: 1,
-        explanation:" Bài kệ trong tài liệu: \"Thế Tôn nói kệ rằng: Có phước, an lạc/ không phước, khổ sầu /đời này, đời sau /nhờ phước, an lạc.\"",
-    },
-    {
-        question: "Câu 28: Chìa khóa quyết định việc tu hành một pháp không thể phá trừ đường dữ hay đến được nẻo thiện (Kinh Đường Dữ) là gì?",
-        options: [
-            "Trí tuệ thấu suốt.",
-            "Định lực kiên cố.",
-            "Tâm có niềm tin tha thiết hay không.",
-            "Sự dũng mãnh tinh tấn."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Câu 29: Cũng trong Kinh Đường Dữ, pháp tu duy nhất để đến được Niết-bàn là gì?",
-        options: [
-            "Luôn giữ chánh niệm.",
-            "Luôn quán vô thường.",
-            "Luôn tu khổ hạnh.",
-            "Luôn bố thí cúng dường."
-        ],
-        correctAnswer: 0,
-        explanation:"Chánh niệm là pháp độc nhất đưa đến Niết-bàn trong ngữ cảnh kinh này.",
-    },
-    {
-        question: "Câu 30: Trong kinh Đường Dữ, thế nào là tu hành một pháp mà không thể phá trừ đường dữ? và tu hành một pháp nào sẽ đến được nẻo thiện?",
-        options: [
-            "LBố thí thật nhiều tài sản vật chất và Xây dựng các đạo tràng to lớn.",
-            "Tâm không có niềm tin tha thiết và Tâm tu tập với niềm tin tha thiết.",
-            "Thực hành khổ hạnh ép xác nghiêm ngặt và Tìm kiếm các phép thần thông.",
-            "Chỉ học thuộc lòng văn tự kinh điển và Cầu xin sự gia hộ từ bên ngoài."
-        ],
-        correctAnswer: 1,
-        explanation:"Yếu tố quyết định là niềm tin: \"Đó là tâm không có niềm tin tha thiết\" (không phá trừ đường dữ) và \"Tâm tu tập với niềm tin tha thiết\" (đến nẻo thiện). => Chìa khóa để chuyển từ đường dữ sang nẻo thiện ở đây là Niềm tin tha thiết (Tín lực).",
-    },
-    {
-        question: "Câu 31: Trong kinh Niệm Xứ, lối vào đạo làm thanh tịnh chúng sanh, diệt trừ khổ ưu, chứng đắc Niết-bàn là gì?",
-        options: [
-            "Diệt trừ tham sân si và tu tập Bát chánh đạo.",
-            "Diệt trừ mười kiết sử và chứng Tứ thánh quả.",
-            "Diệt trừ năm sự ngăn che và tu tập bốn niệm xứ.",
-            "Đoạn diệt vô minh và hành thâm Bát nhã."
-        ],
-        correctAnswer: 2,
-        explanation:"Con đường độc nhất (Nhất nhập đạo): \"Đó là phải diệt trừ năm sự ngăn che và tu tập bốn niệm xứ.\" Đây là tôn chỉ của phẩm Nhất Nhập Đạo.",
-    },
-    {
-        question: "Câu 32: Trong Kinh Niệm Xứ, \"Một lối\" và \"Đạo\" được định nghĩa cụ thể là gì?",
-        options: [
-            "Một lối là chánh niệm; Đạo là Trung đạo.",
-            "Một lối là tâm chuyên nhất; Đạo là tám đạo phẩm của Hiền thánh.",
-            "Một lối là thiền định; Đạo là trí tuệ.",
-            "Một lối là xuất gia; Đạo là Tứ diệu đế."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Câu 33: Trong kinh Niệm Xứ, \"diệt trừ năm sự ngăn che\" là diệt trừ nhóm phiền não nào?",
-        options: [
-            "Tham dục, sân hận, trạo cử, thụy miên, nghi ngờ.",
-            "Sắc, thanh, hương, vị, xúc.",
-            "Tham, sân, si, mạn, nghi.",
-            "Sinh, lão, bệnh, tử, sầu bi khổ ưu não."
-        ],
-        correctAnswer: 0,
-        explanation:"Năm sự ngăn che (Ngũ triền cái) gồm: \"Diệt trừ sự ngăn che của tham dục, sân hận, trạo cử, thụy miên và nghi ngờ.\"",
-    },
-    {
-        question: "Câu 34: Trong kinh Niệm Xứ, thế nào là tu tập bốn niệm xứ?",
-        options: [
-            "Quán thân bất tịnh; quán thọ thị khổ; quán tâm vô thường; quán pháp vô ngã.",
-            "Quán thân nơi thân; quán thọ nơi thọ; quán tâm nơi tâm; quán pháp nơi pháp.",
-            "Quán niệm hơi thở; quán niệm Phật; quán niệm Pháp; quán niệm Tăng.",
-            "Quán sát quá khứ để sám hối; quán sát hiện tại để tỉnh giác; quán sát tương lai để phát nguyện; quán sát các pháp để xả ly."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Câu 35: Bảy giác chi trong phần \"quán niệm pháp nơi pháp\" gồm những pháp nào?",
-        options: [
-            "Tu niệm, trạch pháp, tinh tấn, hỷ, khinh an, định, tuệ giác chi.",
-            "Tín, tấn, niệm, định, tuệ, khinh an, hỷ, xả giác chi.",
-            "Tu niệm, trạch pháp, tinh tấn, hỷ, khinh an, định, xả giác chi.",
-            "Chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm, chánh định."
-        ],
-        correctAnswer: 2,
-    },
-    {
-        question: "Câu 36: Trong kinh Ganh ghét và Đố kỵ, Đức Phật dạy cách diệt trừ tâm ganh ghét và đố kỵ bằng pháp nào?",
-        options: [
-            "Quán sát lỗi lầm của bản thân.",
-            "Tu tập từ bi và nhẫn nhục (thân, miệng, ý hành từ).",
-            "Tránh xa người mình ganh ghét.",
-            "Bố thí tài sản cho người nghèo."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Câu 37: Theo Kinh Kẻ Đi Tìm Con, Đức Phật dạy lẽ thường ở thế gian thế nào?",
-        options: [
-            "Không có tài sản và danh vọng.",
-            "Bị người đời phỉ báng, oan uổng.",
-            "Sanh, già, bệnh, chết là lẽ thường; thương yêu chia lìa, oán ghét gặp nhau là khổ.",
-            "Không gặp được minh sư thiện hữu."
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Câu 38: Tôn giả Tu-bồ-đề đã dùng nguyên lý nào để trả lời câu hỏi \"thân bệnh này từ đâu sanh\" (Kinh Đế-thích Thăm Bệnh)?",
-        options: [
-            "Nghiệp báo từ tiền kiếp không thể thay đổi.",
-            "Do tứ đại bất hòa sinh ra bệnh.",
-            "Pháp pháp tự sanh, pháp pháp tự diệt; pháp có thể sanh/diệt trừ pháp.",
-            "Do tà ma ngoại đạo phá hoại."
-        ],
-        correctAnswer: 2,
-        explanation:"Câu trả lời dựa trên nguyên lý Duyên khởi và Vô ngã của các pháp. \"Pháp pháp tự sanh, pháp pháp tự diệt, pháp pháp tác động qua lại... pháp có thể sanh ra pháp, pháp có thể diệt trừ pháp.\"",
-    },
-    {
-        question: "Câu 39: Trong Kinh Xả Bỏ Hai Kiến, \"Chấp có\" và \"Chấp không\" được định nghĩa như thế nào?",
-        options: [
-            "Chấp có là chấp ngã; Chấp không là chấp pháp.",
-            "Chấp có là chấp thực có cõi dục, cõi sắc, cõi vô sắc; Chấp không là cái thấy liên hệ 62 loại kiến chấp.",
-            "Chấp có là tin nhân quả; Chấp không là bác bỏ nhân quả.",
-            "Chấp có là thấy vạn vật tồn tại; Chấp không là thấy vạn vật là hư vô."
-        ],
-        correctAnswer: 1,
-        explanation:"Hai kiến chấp căn bản: \"Đó là chấp có và chấp không. Chấp có là chấp thực có cõi dục... Chấp không là cái thấy liên hệ sáu mươi hai loại kiến chấp.\"",
-    },
-    {
-        question: "Câu 40: Trong kinh Xả Bỏ Hai Kiến, Thế nào là chấp thật có cõi dục?",
-        options: [
-            "Muốn được tái sinh làm vua chúa.",
-            "Tích lũy thật nhiều tài sản.",
-            "Đắm nhiễm vào năm Dục (sắc, thanh, hương, vị, xúc).",
-            "Khởi tâm sân hận khi gặp trái ý."
-        ],
-        correctAnswer: 2,
-        explanation:"Biểu hiện của chấp có cõi dục: Đó là năm Dục. Sắc mà mắt nhìn thấy, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân xúc chạm, rất đáng yêu đáng nhớ. Chấp cõi dục biểu hiện qua sự đắm nhiễm Năm dục (ngũ dục trưởng dưỡng).",
-    },
-    {
-        question: "Câu 41: Trong kinh Hai Tướng, Đức Phật dạy biểu hiện hai tướng của người ngu và người trí khác nhau ở điểm nào?",
-        options: [
-            "Sự hiểu biết nhiều hay ít kinh điển.",
-            "Khả năng tranh luận và thuyết pháp.",
-            "Hành động đối với những việc được phép (cần làm) và không được phép làm.",
-            "Sự giàu sang và quyền lực trong xã hội."
-        ],
-        correctAnswer: 2,
-        explanation:"Tiêu chuẩn phân biệt nằm ở hành động đối với điều nên làm (thiện pháp) và điều không nên làm (ác pháp). Người ngu thì với những việc không được phép làm, nhưng vẫn cố làm; những việc cần làm thì lại chán bỏ; Người có Trí thì ngược lại.",
-    },
-    {
-        question: "Câu 42: Hai nhân duyên phát sinh Chánh kiến (Kinh Chánh Kiến) là gì?",
-        options: [
-            "Đọc kinh sách và tự mình chiêm nghiệm.",
-            "Lãnh thụ sự giáo hóa (nghe pháp) và tư duy pháp chỉ quán (như lý tác ý).",
-            "Bố thí trì giới và tu tập thiền định.",
-            "Xuất gia tu hành và nhập thất."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Câu 43: Trong Kinh Pháp Soi Sáng, \"Soi sáng\" và \"Pháp\" được định nghĩa ra sao?",
-        options: [
-            "Soi sáng là trí tuệ; Pháp là giới luật.",
-            "Soi sáng là thấy ánh sáng quang minh; Pháp là thần chú.",
-            "Soi sáng là dứt sạch tham sân si; Pháp là Bát chánh đạo.",
-            "Soi sáng là hiểu thấu nhân quả; Pháp là Tứ diệu đế."
-        ],
-        correctAnswer: 2,
-        explanation:"Trong kinh định nghĩa: \"Soi sáng là tham dâm, sân hận và ngu si đã hoàn toàn dứt sạch. Pháp để hành trì soi sáng là chánh kiến, chánh tư duy... (Bát chánh đạo).\"",
-    },
-    {
-        question: "Câu 44: Trong kinh Hai Lực, Đức Phật cho biết hai sức mạnh nào giúp thành tựu Vô Thượng Chánh Đẳng Chánh Giác?",
-        options: [
-            "Tín lực và Tấn lực.",
-            "Định lực và Tuệ lực.",
-            "Từ bi lực và Trí tuệ lực.",
-            "Nhẫn lực và Tư duy lực."
+            "A. Kinh Tạp A Hàm",
+            "B. Kinh Trường A Hàm",
+            "C. Kinh Tăng nhất A Hàm",
+            "D. Kinh Trung A Hàm"
         ],
         correctAnswer: 3,
-        explanation:"Hai sức mạnh cốt lõi được nhắc đến trong kinh là Nhẫn lực (khả năng kham nhẫn) và Tư duy lực (khả năng quán chiếu). ",
+        explanation: "Ba nghĩa của giới (Tư niệm, Luật nghi/Oai nghi, Tâm sở) được nói trong Kinh Trung A-hàm (Kinh Chủng Đức)."
     },
     {
-        question: "Câu 45: Trong kinh Sát sanh và Không sát sanh, Đức Phật dạy quả báo của hành động sát sanh là gì?",
+        question: "Câu 16: Nội dung “Tâm sở cũng là giới” trong kinh nào:",
         options: [
-            "Đưa đến đọa ác đạo, nếu sanh làm người thì yểu mệnh.",
-            "Sẽ bị đọa vào ác đạo, nhưng nếu sanh làm người thì vẫn được hưởng sự giàu sang.",
-            "Chỉ bị tổn giảm tài sản trong kiếp hiện tại chứ không ảnh hưởng đến thọ mạng.",
-            "Sẽ chịu quả báo nhiều bệnh tật nhưng thọ mạng vẫn kéo dài."
-        ],
-        correctAnswer: 0
-    },
-    {
-        question: "Câu 46: Trong kinh Sát sanh và Không sát sanh, Đức Phật dạy phước báo của hành động không sát sanh là gì?",
-        options: [
-            "Chỉ đem lại sức khỏe vô biên và không bao giờ mắc bệnh tật ở kiếp hiện tại.",
-            "Đem lại thọ mạng dài lâu, phước cõi người, cõi trời và hướng đến Niết-bàn.",
-            "Giúp hành giả lập tức đạt được thần thông và thấu hiểu mọi đạo lý trong trời đất.",
-            "Đem lại quyền lực tối cao ở cõi người nhưng không giúp ích cho việc giải thoát."
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Câu 47: Quả báo khi tái sanh làm người của hành vi Trộm cướp là gì?",
-        options: [
-            "Bị khinh chê, sống trong môi trường dâm loạn.",
-            "Ngu si, mất trí nhớ, nghèo khổ.",
-            "Nghèo khổ.",
-            "Yểu mệnh."
-        ],
-        correctAnswer: 2,
-        explanation: "Trộm cướp đưa đến ác đạo, làm người thì nghèo khổ.<br>Bố thí đem lại phước báo lớn, đời này an vui, đời sau sanh thiện thú và có khả năng chứng Niết-bàn.",
-    },
-    {
-        question: "Câu 48: Một người sống trong môi trường dâm loạn, bị mọi người khinh chê là quả báo của tội gì?",
-        options: [
-            "Nói dối.",
-            "Uống rượu.",
-            "Tà dâm.",
-            "Trộm cướp."
-        ],
-        correctAnswer: 2,
-        explanation: "Tà dâm đưa đến đọa lạc, làm người thì bị khinh chê, sống trong môi trường dâm loạn.<br>Không tà dâm đem lại phước báo, đời sống thanh tịnh và hướng đến giải thoát.",
-    },
-    {
-        question: "Câu 49: Nền tảng đem lại tiếng tốt, phước báo và làm cơ sở chứng Niết-bàn xuất phát từ việc giữ gìn giới nào?",
-        options: [
-            "Không sát sanh.",
-            "Không trộm cướp.",
-            "Không nói dối (chân thật).",
-            "Không uống rượu."
-        ],
-        correctAnswer: 2,
-       explanation: "Nói dối đưa đến ác đạo, làm người bị chán ghét;<br>Không nói dối đem lại tiếng tốt, phước báo và là nền tảng để chứng Niết-bàn.",
-    },
-    {
-        question: "Câu 50: Tác hại nguy hiểm nhất về mặt TÂM LINH của việc uống rượu đối với lộ trình giác ngộ là gì?",
-        options: [
-            "Gây tốn kém tiền bạc, phá sản.",
-            "Dẫn đến bạo lực gia đình, xã hội.",
-            "Tổn hại sức khỏe, sinh bệnh tật.",
-            "Đoạ lạc, ngu si, mất chánh niệm (nhân của Vô minh)."
-    
-        ],
-        correctAnswer: 3,
-       explanation: "Uống rượu khiến đọa lạc, làm người thì ngu si, mất chánh niệm. Rượu là nhân của Si mê (Vô minh);<br>Không uống rượu giúp trí tuệ sáng suốt, phước báo tăng trưởng và hướng đến Niết-bàn.",
-    },
-    {
-        question: "Câu 51: Nữ cư sĩ nào được nhắc đến như là biểu tượng của đệ nhất thiền định tại gia (gương sáng trong Kinh Ưu-bà-di Dạy Con Gái)?",
-        options: [
-            "Câu-thù-đa-la.",
-            "Sấm-ma.",
-            "Nan-đà Mẫu.",
-            "Ưu-bát Hoa Sắc."
-        ],
-        correctAnswer: 2,
-        explanation:"Nếu sống tại gia, noi theo ưu-bà-di Câu-thù-đa-la và Nan-đà Mẫu; Nếu xuất gia, noi theo Tỳ-kheo-ni Sấm-ma và Tỳ-kheo-ni Ưu-bát Hoa Sắc",
-    },
-    {
-        question: "Câu 52: Pháp hộ tâm (Kinh Không buông lung) đòi hỏi hành giả phải khéo trừ diệt những lậu hoặc nào đã sanh?",
-        options: [
-            "Kiến lậu, tư lậu, vô minh lậu.",
-            "Dục lậu, hữu lậu, vô minh lậu.",
-            "Tham lậu, sân lậu, si lậu.",
-            "Thân lậu, khẩu lậu, ý lậu."
+            "A. Tạp A-hàm",
+            "B. Trung A-hàm",
+            "C. Trường A-hàm",
+            "D. Tăng nhất A-hàm"
         ],
         correctAnswer: 1,
-        explanation:"Pháp hộ tâm cụ thể là thận trọng ngăn ngừa và trừ diệt ba loại lậu hoặc (dục, hữu, vô minh).",
+        explanation: "Tâm sở cũng là giới được đề cập trong Kinh Trung A-hàm."
     },
     {
-        question: "Câu 53: Trong Kinh Dục Tưởng, Đức Phật dạy nếu tâm loạn tưởng khiến cho các tưởng dục, sân, thụy miên, trạo cử, nghi chưa sinh liền sinh khởi, đã khởi lại khiến tăng trưởng, vậy hành giả cần tu tập bước CƠ BẢN nào để đối trị?",
+        question: "Câu 17: Chọn câu phù hợp nhất:",
         options: [
-            "Phải luôn chuyên tâm quán tưởng bất tịnh.",
-            "Chớ có loạn tưởng, phải luôn chánh niệm.",
-            "Phải luôn giữ tâm thanh tịnh, không làm điều ác.",
-            "Phải nỗ lực thiền định và dứt bỏ thế gian."
+            "A. Giới và luật dùng song song, tùy văn cảnh mà hiểu cho đúng.",
+            "B. Khái niệm giới và luật hoàn toàn đồng nhất.",
+            "C. Giới và luật dùng song song.",
+            "D. Từ 'giới luật' xuất hiện trong Phật giáo thời kỳ đầu."
         ],
-        correctAnswer: 1
+        correctAnswer: 0,
+        explanation: "Giới thiên về đạo đức cá nhân, Luật thiên về kỷ cương Tăng đoàn. Hai từ thường dùng song song nhưng không đồng nhất."
     },
     {
-        question: "Câu 54: Trong Kinh Niệm Xứ, phép tu tập \"bốn niệm xứ\" được Đức Phật định nghĩa cụ thể là gì?",
+        question: "Câu 18: Cụ túc giới là chỉ:",
         options: [
-            "Quán thân vô thường; quán thọ là khổ; quán tâm vô ngã; quán pháp bất tịnh.",
-            "Quán thân nơi thân; quán thọ nơi thọ; quán tâm nơi tâm; quán pháp nơi pháp.",
-            "Niệm Phật, niệm Pháp, niệm Tăng, niệm Tịch lặng.",
-            "Từ bi quán, Duyên khởi quán, Bất tịnh quán, Giới phân biệt quán."
+            "A. Tỳ Kheo, tỳ kheo ni giới",
+            "B. 5 giới, 10 giới, Bồ tát giới",
+            "C. Tinh thần của giới luật",
+            "D. Cả A, B, C"
         ],
-        correctAnswer: 1
+        correctAnswer: 0,
+        explanation: "Cụ túc giới (Upasampadā) là giới đầy đủ của người xuất gia (Tỳ-kheo có 250 giới, Tỳ-kheo-ni có 348 giới)."
     },
     {
-        question: "Câu 55: Trong Kinh Tạo Phước, Đức Phật dạy về\"vô phước\" là gì?",
+        question: "Câu 19: Thế nào là tăng thượng giới học?",
         options: [
-            "Là sự thiếu thốn về tài sản vật chất thế gian.",
-            "Là không biết bố thí, cúng dường Tam Bảo.",
-            "Là nguồn gốc của các khổ, những thứ sầu, lo, khổ, não không thể tính kể.",
-            "Là người sinh ra không có căn tu, tà kiến."
+            "A. Tỷ-kheo an trụ giới, luật nghi... thấy tội nhỏ nhặt chưa sanh lòng sợ hãi.",
+            "B. Giữ gìn giới luật nghiêm túc từng phần... giúp hành giả luôn hưởng thượng.",
+            "C. Tỷ-kheo an trụ Giới Ba-la-đề-mộc-xoa, đầy đủ oai nghi hành xử, thấy tội vị tế (nhỏ nhặt) sanh lòng sợ hãi, thọ trì học giới."
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        explanation: "Người tu phải an trụ luật nghi Ba-la-đề-mộc-xoa, đầy đủ oai nghi, và đối với những lỗi nhỏ nhặt cũng sinh lòng sợ hãi cẩn trọng."
     },
     {
-        question: "Câu 56: Để làm rõ thêm về \"Thiện pháp\" trong Kinh Không Buông Bỏ Thiện Pháp, tám đạo phẩm của bậc Hiền thánh bao gồm những chi phần nào?",
+        question: "Câu 20: 5 giới, bát quan trai giới thuộc:",
         options: [
-            "Tín, Tấn, Niệm, Định, Tuệ, Khinh an, Hỷ, Xả.",
-            "Chánh kiến, Chánh tư duy, Chánh ngữ, Chánh nghiệp, Chánh mạng, Chánh tinh tấn, Chánh niệm, Chánh định.",
-            "Từ, Bi, Hỷ, Xả, Bố thí, Trì giới, Nhẫn nhục, Tinh tấn.",
-            "Sắc, Thọ, Tưởng, Hành, Thức, Nhãn, Nhĩ, Tỷ."
+            "A. Giải thoát luật nghi",
+            "B. Tịnh lự luật nghi",
+            "C. Vô lậu giới",
+            "D. Xuất gia giới"
         ],
-        correctAnswer: 1
+        correctAnswer: 0,
+        explanation: "Giải thoát luật nghi là những giới giữ để hướng đến giải thoát, bao gồm: 5 giới, Bát quan trai, và giới của Tỳ-kheo/Tỳ-kheo-ni."
     },
+    {
+        question: "Câu 21: Chọn câu CHƯA phù hợp:",
+        options: [
+            "A. Nếu Tỳ-kheo nào phạm giới thì làm tổn hại gìn giữ các căn.",
+            "B. Nếu Tỳ-kheo giữ giới thì không có sự hối hận, hân hoan, hý...",
+            "C. Nếu đã giải thoát thì liền đắc Niết-bàn.",
+            "D. Giữ giới thì hối hận, hân hoan, hỷ, tĩnh chỉ, lạc, định..."
+        ],
+        correctAnswer: 3,
+        explanation: "Câu D sai vì giữ giới thanh tịnh thì phải là 'KHÔNG hối hận' chứ không phải sinh ra hối hận."
+    },
+    {
+        question: "Câu 22: Chọn câu phù hợp nhất:",
+        options: [
+            "A. Giới có nghĩa là chỉ ác (chỉ hành giới/luật nghi giới); hành thiện (tác trì giới/tác thiện giới).",
+            "B. Giới có nghĩa là chỉ ác (chỉ trì giới/luật nghi giới); hành thiện (tác giới/tác thiện giới).",
+            "C. Giới có nghĩa là chỉ ác (chỉ trì giới/luật nghi giới); hành thiện (tác trì giới/tác thiện giới)."
+        ],
+        correctAnswer: 2,
+        explanation: "Theo hành trì có hai ý nghĩa: Chỉ trì giới (ngăn ác) và Tác trì giới (siêng làm thiện)."
+    },
+    {
+        question: "Câu 23: Chọn câu mang nghĩa đúng nhất:",
+        options: [
+            "A. Bồ tát giới là đại thừa giới, hàng thanh văn không được thọ.",
+            "B. Thông giới là thông tam giới.",
+            "C. Thông giữa nam truyền và đại thừa.",
+            "D. Bắc truyền Phật giáo có Bồ tát giới là thông giới."
+        ],
+        correctAnswer: 3,
+        explanation: "Bồ-tát giới được xem là 'thông giới' vì cả hàng xuất gia và tại gia đều có thể thọ trì."
+    },
+    {
+        question: "Câu 24: Trong hàng đệ tử xuất gia của Đức Phật có người sanh hữu lậu pháp khi:",
+        options: [
+            "A. Phật chế giới",
+            "B. Người căn tánh thấp xuất gia",
+            "C. Số người xuất gia đông",
+            "D. Hàng đệ tử xuất gia thiên về lợi dưỡng."
+        ],
+        correctAnswer: 3,
+        explanation: "Khi một số người xuất gia vì danh lợi, lợi dưỡng, từ đó phát sinh hữu lậu pháp, buộc Đức Phật phải bắt đầu chế giới."
+    },
+    {
+        question: "Câu 25: Chọn câu mang nghĩa đúng nhất:",
+        options: [
+            "A. Những tỳ kheo căn tính thông lợi khó tự điều phục, sanh hữu lậu pháp.",
+            "B. Từ thực hành giới đến giữ giới đã quy định thành từng điểm cụ thể là ưu điểm lớn nhất.",
+            "C. Đức Phật cụ thể hóa giới học bằng các học xứ (giới điều), để hàng căn tánh thấp dễ học và hành trì.",
+            "D. Tất cả đều sai."
+        ],
+        correctAnswer: 2,
+        explanation: "Giới điều ra đời vì khi Tăng đoàn đông, người căn cơ thấp khó tự điều phục, cần quy định cụ thể để dễ học, dễ hành."
+    },
+    {
+        question: "Câu 26: Bố Tát (posadha) bắt nguồn từ:",
+        options: [
+            "A. Đức Phật định ra",
+            "B. Văn hóa Ấn Độ cổ",
+            "C. Nghi lễ tôn giáo cổ Ấn Độ",
+            "D. Veda của Ấn Độ"
+        ],
+        correctAnswer: 3,
+        explanation: "Bố Tát (Uposatha) có nguồn gốc từ nghi lễ Vệ-đà (Veda), sau đó Đức Phật chuyển hóa thành nghi thức tụng giới thanh tịnh của Tăng đoàn."
+    },
+    {
+        question: "Câu 27: Ba đời chư Phật phạm hạnh không cửu trụ là:",
+        options: [
+            "A. Tỳ Bà Thi Phật, Thi Khí Phật, Tỳ Xá Phù Phật.",
+            "B. Tỳ Bà Thi Phật, Câu Lưu Tôn Phật, Ca Diếp Phật.",
+            "C. Tỳ Xá Phù Phật, Thi Khí Phật, Ca Diếp Phật."
+        ],
+        correctAnswer: 0,
+        explanation: "Vì 3 vị Phật này không kết giới và không thuyết giới (Ba-la-đề-mộc-xoa) nên sau khi Phật diệt độ, phạm hạnh không tồn tại lâu dài."
+    },
+    {
+        question: "Câu 28: Kệ bố tát Đức Phật Thích Ca thuyết là:",
+        options: [
+            "A. Cũng như người mắt sáng, tránh khỏi lối hiểm nghèo...",
+            "B. Hết thảy ác chớ làm, hãy vắng hành các thiện...",
+            "C. Khéo phòng hộ lời nói, tâm chí tự lắng trong, thân không làm các ác...",
+            "D. Chớ làm các điều ác, vâng làm các điều lành..."
+        ],
+        correctAnswer: 2,
+        explanation: "Bài kệ: 'Khéo phòng hộ lời nói, tâm chí tự lắng trong, thân không làm các ác, thực hành được như thế...' là bài kệ Bố Tát đặc thù của Phật Thích Ca."
+    },
+    {
+        question: "Câu 29: Nguyên lý chế định giới luật là:",
+        options: [
+            "A. Duyên sanh pháp",
+            "B. Duyên khởi",
+            "C. Duyên khởi pháp",
+            "D. 12 nhân duyên"
+        ],
+        correctAnswer: 2,
+        explanation: "Giới luật được chế định dựa trên Duyên khởi pháp (có nhân duyên vi phạm xảy ra thì mới chế định điều giới)."
+    },
+    {
+        question: "Câu 30: Chọn câu KHÔNG đúng:",
+        options: [
+            "A. Ba đời chư Phật quảng thuyết kinh pháp, vì đệ tử chế định giới luật...",
+            "B. Ba đời chư Phật quảng thuyết kinh pháp, đệ tử chế định giới luật...",
+            "C. Ba đời chư Phật quảng thuyết kinh pháp, vì đệ tử chế định giới luật, thuyết ba la đề mộc xoa..."
+        ],
+        correctAnswer: 1,
+        explanation: "Câu B sai vì chủ thể chế giới phải là Đức Phật, đệ tử không có quyền chế định giới luật."
+    },
+    {
+        question: "Câu 31: Chọn câu đúng:",
+        options: [
+            "A. Tùy phạm mà chế vì tránh ngoại đạo cười chê, đệ tử sanh lòng bất mãn.",
+            "B. Tùy phạm mà chế vì tránh ngoại đạo cười chê, đệ tử sanh lòng bị mẫn.",
+            "C. Tùy phạm mà chế vì tránh ngoại đạo cười chê, đệ tử không muốn."
+        ],
+        correctAnswer: 0,
+        explanation: "Đức Phật không chế giới trước, mà khi có lỗi mới chế giới, nhằm tránh ngoại đạo cười chê và tránh đệ tử sinh tâm bất mãn."
+    },
+    {
+        question: "Câu 32: Tùy phạm tùy chế là vì:",
+        options: [
+            "A. Nhân duyên chưa đủ",
+            "B. Thời cơ chưa đến",
+            "C. Vì đệ tử phòng hộ các căn",
+            "D. Chế giới phải hợp cơ, hợp nhân, hợp thời, hợp xứ."
+        ],
+        correctAnswer: 3,
+        explanation: "Đức Phật chế giới không tùy tiện mà phải đầy đủ các yếu tố: hợp cơ (căn cơ), hợp nhân (nhân duyên), hợp thời (thời điểm) và hợp xứ (hoàn cảnh)."
+    },
+    {
+        question: "Câu 33: Những điều lợi ích nào phần nhiều vì người ngoài đạo:",
+        options: [
+            "A. Điều phục người nhiều phiền não, người tàm quý được an lạc",
+            "B. Đoạn hiện lậu hoặc, diệt hậu lậu hoặc.",
+            "C. Khiến người chưa tin sanh tín tâm, người đã tin càng thâm tín.",
+            "D. Khiến người chưa tin sanh thâm tín, người đã tin sang thâm tín."
+        ],
+        correctAnswer: 2,
+        explanation: "Lợi ích hướng đến ngoại đạo là: Khiến người chưa tin thì sinh lòng tin, người đã tin thì lòng tin thêm tăng trưởng."
+    },
+    {
+        question: "Câu 34: 10 loại lợi ích trong các bộ kinh luật dùng từ ngữ là:",
+        options: [
+            "A. Tăng kỳ luật: 10 việc lợi ích; Tứ phần luật: mười phúc lợi; Tạp a hàm: mười cú nghĩa...",
+            "B. Tăng kỳ luật: 10 việc lợi ích, Tứ phần luật: mười có nghĩa, Tạp a hàm: mười phúc lợi...",
+            "C. Tăng kỳ luật: 10 việc lợi ích; Tứ phần luật: mười cú nghĩa; Tạp a hàm: mười phúc lợi; Tăng nhất a hàm: mười việc công đức."
+        ],
+        correctAnswer: 2,
+        explanation: "Tăng Kỳ gọi 10 việc lợi ích, Tứ phần gọi 10 cú nghĩa, Tạp A hàm gọi 10 phúc lợi, Tăng nhất A hàm gọi 10 việc công đức."
+    },
+    {
+        question: "Câu 35: 10 lợi ích nếu phân theo đối tượng thì thành mấy nội dung:",
+        options: [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 5"
+        ],
+        correctAnswer: 2,
+        explanation: "Được chia thành 4 nhóm đối tượng: Vì Tăng đoàn, Vì người tu (cá nhân), Vì người ngoài đạo, Vì sự trường tồn của Chánh pháp."
+    },
+    {
+        question: "Câu 36: Ba bộ kinh luật chỉ có 9 điều lợi ích là:",
+        options: [
+            "A. Tạp, Ngũ Phần, Nam Truyền",
+            "B. Tạp, Thập Tụng, Nam Truyền",
+            "C. Tạp, Tăng Kỳ, Nam Truyền",
+            "D. Tạp, Tứ Phần, Nam Truyền"
+        ],
+        correctAnswer: 2,
+        explanation: "Các bộ luật ghi nhận 9 điều lợi ích (thay vì 10) là: Tạp A-hàm, Tăng Kỳ luật và Nam Truyền."
+    },
+    {
+        question: "Câu 37: Các quả vị có thể chứng đắc khi giới luật thanh tịnh:",
+        options: [
+            "A. Từ Tu-đà-hoàn đến A-la-hán",
+            "B. Tu-đà-hoàn, Tư-đà hàm, A-la-hán",
+            "C. Sơ quả Tu-đà-hoàn, nhị quả Tư-đà hàm",
+            "D. Tu-đà-hoàn, Tư-đà-hàm, A-na-hàm"
+        ],
+        correctAnswer: 0,
+        explanation: "Nhờ giới sinh định, định phát tuệ, người tu có thể chứng cả 4 quả vị từ Sơ quả (Tu-đà-hoàn) đến Tứ quả (A-la-hán)."
+    },
+    {
+        question: "Câu 38: “Mười” lợi ích là con số:",
+        options: [
+            "A. Chính xác",
+            "B. Cố định",
+            "C. Viên mãn",
+            "D. Tượng trưng"
+        ],
+        correctAnswer: 3,
+        explanation: "Trong kinh Phật, con số 10 không phải là số cố định tuyệt đối mà mang ý nghĩa tượng trưng cho sự đầy đủ, trọn vẹn."
+    },
+    {
+        question: "Câu 39: Câu kinh trong kinh Lăng Nghiêm nói về giới luật:",
+        options: [
+            "A. Nhiếp tâm làm giới, nhân giới sinh định, nhân định phát tuệ.",
+            "B. Giới thị nhất thiết thiện pháp chỉ thể tranh.",
+            "C. Giới do nhân chi đầu thủ.",
+            "D. Sa môn giới hành, như thủy như ngọc"
+        ],
+        correctAnswer: 0,
+        explanation: "Đây là câu kinh nổi tiếng chỉ rõ con đường Giới – Định – Tuệ nền tảng của Phật giáo."
+    },
+    {
+        question: "Câu 40: Đắc sơ quả tu-đà-hoàn, ngoài giới luật thanh tịnh cần:",
+        options: [
+            "A. Có ít định, ít tuệ, giới sự tồn tại",
+            "B. Có ít định, ít tuệ, giới thường tùy thuận mà sanh",
+            "C. Có ít định, ít tuệ, đoạn trừ thân kiến",
+            "D. Có ít định, ít tuệ, đoạn trừ ba kết"
+        ],
+        correctAnswer: 3,
+        explanation: "Sơ quả Tu-đà-hoàn đòi hỏi hành giả phải đoạn tận 3 kiết sử (ba kết): Thân kiến, Giới cấm thủ, và Nghi."
+    },
+    {
+        question: "Câu 41: Bố tát trong Phật giáo có nghĩa là:",
+        options: [
+            "A. Giảng giới",
+            "B. Thuyết giới",
+            "C. Tăng thượng giới",
+            "D. Học giới"
+        ],
+        correctAnswer: 1,
+        explanation: "Bố tát chính là hoạt động tụng giới / thuyết giới và thanh tịnh hóa Tăng đoàn diễn ra mỗi nửa tháng."
+    },
+    {
+        question: "Câu 42: Chọn câu đúng:",
+        options: [
+            "A. Không làm các điều ác, thiện hộ các căn.",
+            "B. Không làm các điều ác, làm mọi điều thiện lành.",
+            "C. Không làm các điều ác, làm điều thiện có thể.",
+            "D. Không làm các điều ác, làm việc thiện lành."
+        ],
+        correctAnswer: 1,
+        explanation: "Khớp với tinh thần bài kệ 'Chư ác mạc tác, chúng thiện phụng hành' (Không làm các điều ác, làm mọi điều thiện lành)."
+    },
+    {
+        question: "Câu 43: Chánh pháp cửu trụ là:",
+        options: [
+            "A. lợi ích của cá nhân hành giả",
+            "B. Lợi ích người ngoài đạo",
+            "C. Lợi ích cao nhất của việc chế giới.",
+            "D. Lợi ích của Tăng đoàn."
+        ],
+        correctAnswer: 2,
+        explanation: "Chánh pháp cửu trụ (sự tồn tại lâu dài của Chánh pháp) là mục đích và lợi ích cao nhất của việc Đức Phật chế định giới luật."
+    },
+    {
+        question: "Câu 44: “Ác” trong tinh thần giới luật được hiểu là những hành động, lời nói làm ô nhiễm điều gì?",
+        options: [
+            "a. Thân nghiệp",
+            "b. Khẩu nghiệp",
+            "c. Ba nghiệp (6 căn)"
+        ],
+        correctAnswer: 2,
+        explanation: "Mục đích của giới là thanh tịnh cả ba nghiệp: Thân nghiệp, Khẩu nghiệp và Ý nghiệp."
+    },
+    {
+        question: "Câu 45: Trong Kinh A Hàm, những nghĩa nào sau đây được đề cập đến như là giới?",
+        options: [
+            "a. Sìla, Học xứ, Giới luật",
+            "b. Luật nghi, Oai nghi, Tâm sở",
+            "c. Tư niệm, Luật nghi/Oai nghi, Tâm sở"
+        ],
+        correctAnswer: 2,
+        explanation: "Kinh A-hàm giải thích giới qua 3 góc độ: Tư niệm là giới, Luật nghi/Oai nghi là giới, và Tâm sở là giới."
+    },
+    {
+        question: "Câu 46: “Tịnh lư luật nghi” là loại giới phát sinh trong hoàn cảnh nào?",
+        options: [
+            "a. Trong đời sống hàng ngày của người tại gia",
+            "b. Trong các nghi lễ xuất gia",
+            "c. Trong lúc hành thiền"
+        ],
+        correctAnswer: 2,
+        explanation: "Tịnh lự (Dhyāna) nghĩa là thiền định. Tịnh lự luật nghi là loại giới tự nhiên phát sinh khi tâm an định trong lúc hành thiền."
+    },
+    {
+        question: "Câu 47: Mối quan hệ giữa tâm và giới có thể được hiểu như thế nào?",
+        options: [
+            "a. Giới hoàn toàn độc lập với tâm.",
+            "b. Giới phát sinh từ tâm, và ở một góc độ nào đó, tâm có thể được xem là giới.",
+            "c. Tâm là kết quả của việc giữ giới một cách nghiêm túc."
+        ],
+        correctAnswer: 1,
+        explanation: "Giới không tách rời tâm. Hành vi thân khẩu đều từ tâm, do đó 'tâm sở cũng là giới'."
+    },
+    {
+        question: "Câu 48: Tinh thần cốt lõi của giới luật trong Phật giáo được tóm tắt như thế nào?",
+        options: [
+            "a. Kiềm chế mọi ham muốn và dục vọng.",
+            "b. Tuân thủ nghiêm ngặt các giới điều đã được Đức Phật chế định.",
+            "c. Không làm các điều ác, siêng năng làm các việc lành, giữ cho ba nghiệp (thân, khẩu, ý) thanh tịnh."
+        ],
+        correctAnswer: 2,
+        explanation: "Tóm gọn qua bài kệ: Chư ác mạc tác, chúng thiện phụng hành, tự tịnh kỳ ý."
+    },
+    {
+        question: "Câu 49: Khi Tôn giả Xá Lợi Phất hỏi về phạm hạnh cửu trụ, Đức Phật có đồng ý ngay không?",
+        options: [
+            "A. Có, Đức Phật đồng ý ngay lập tức",
+            "B. Không, Ngài nói \"Thế Tôn tự biết thời\"",
+            "C. Không, Ngài từ chối hoàn toàn",
+            "D. Có, nhưng chỉ áp dụng cho một số đệ tử"
+        ],
+        correctAnswer: 1,
+        explanation: "Ngài trả lời 'Thế Tôn tự biết thời', nghĩa là khi nhân duyên chưa đủ, chưa có người vi phạm thì chưa chế giới."
+    },
+    {
+        question: "Câu 50: Hệ thống giới điều trong Tăng đoàn có ưu điểm gì?",
+        options: [
+            "A. Giúp hành giả dễ học, dễ thực hành",
+            "B. Làm tăng uy tín của Tăng đoàn",
+            "C. Tạo ra sự công bằng giữa các Tỳ-kheo",
+            "D. Giúp thu hút thêm nhiều người xuất gia"
+        ],
+        correctAnswer: 0,
+        explanation: "Khi giới học được cụ thể hóa thành các học xứ (giới điều khoản) thì ưu điểm lớn nhất là rõ ràng, dễ học và dễ thực hành."
+    },
+    {
+        question: "Câu 51: Giới luật giúp hành giả đạt được Ba môn vô lậu học gồm những gì?",
+        options: [
+            "A. Giới – Định – Tuệ",
+            "B. Bố thí – Nhẫn nhục – Trí tuệ",
+            "C. Thiền định – Tinh tấn – Chánh niệm",
+            "D. Từ bi – Hỷ xả – Trí tuệ"
+        ],
+        correctAnswer: 0,
+        explanation: "Tam vô lậu học căn bản của Phật giáo là lộ trình: Giới -> Định -> Tuệ."
+    },
+    {
+        question: "Câu 52: Trong các thời kỳ của chư Phật quá khứ, nhóm nào có phạm hạnh cửu trụ?",
+        options: [
+            "a) Tỳ Bà Thi Phật, Thi Khí Phật, Tỳ Xá Phù Phật",
+            "b) Câu Lưu Tôn Phật, Câu Na Hàm Mâu Ni Phật, Ca Diếp Phật",
+            "c) Cả hai nhóm đều có phạm hạnh cửu trụ",
+            "d) Không có vị Phật nào có phạm hạnh cửu trụ"
+        ],
+        correctAnswer: 1,
+        explanation: "Nhóm Phật Câu Lưu Tôn, Câu Na Hàm và Ca Diếp có chế định giới luật, thuyết Ba-la-đề-mộc-xoa nên phạm hạnh được cửu trụ."
+    },
+    {
+        question: "Câu 53: Một hạn chế của việc chế định giới luật là gì?",
+        options: [
+            "A. Hành giả dễ chấp vào hình thức giới điều mà dần dần bỏ qua tinh thần của giới",
+            "B. Giới luật quá ít",
+            "C. Giới luật không có tác dụng",
+            "D. Hành giả không thể thực hành"
+        ],
+        correctAnswer: 0,
+        explanation: "Khuyết điểm của việc cụ thể hóa giới điều là người tu dễ dính mắc vào hình thức bề ngoài mà đánh mất đi tinh thần thanh tịnh cốt lõi của giới."
+    },
+    {
+        question: "Câu 54: Mục đích sau cùng của giới luật là gì?",
+        options: [
+            "A. Chánh pháp cửu trụ",
+            "B. Kiểm soát đệ tử",
+            "C. Giúp đệ tử có nhiều quyền lực",
+            "D. Giúp đệ tử trở nên nổi tiếng"
+        ],
+        correctAnswer: 0,
+        explanation: "Lợi ích cao nhất trong 10 lợi ích chế giới chính là làm cho Chánh pháp được tồn tại lâu dài ở thế gian."
+    },
+    {
+        question: "Câu 55: Khi giới thanh tịnh, hành giả có thể đắc quả vị gì?",
+        options: [
+            "A. Chỉ đạt được thiền định",
+            "B. Chỉ đạt được trí tuệ",
+            "C. Đạt định và tuệ",
+            "D. Không đắc được gì cả"
+        ],
+        correctAnswer: 2,
+        explanation: "Giữ giới thanh tịnh sẽ sinh ra định, có định thì sẽ phát sinh trí tuệ (Tam vô lậu học)."
+    },
+    {
+        question: "Câu 56: Đặc điểm của nguyên tắc “tùy phạm mà chế” trong việc chế định giới là:",
+        options: [
+            "A. Giới luật cố định và không thay đổi theo thời gian",
+            "B. Giới luật thay đổi, linh hoạt theo hoàn cảnh, từng hạng người và địa phương",
+            "C. Giới luật chỉ áp dụng cho tỳ kheo và tỳ kheo ni",
+            "D. Giới luật chỉ là những quy định cứng nhắc, không có ngoại lệ"
+        ],
+        correctAnswer: 1,
+        explanation: "Tùy phạm mà chế đảm bảo giới luật phải phù hợp với 4 yếu tố: hợp cơ, hợp nhân duyên, hợp thời và hợp xứ."
+    },
+    {
+        question: "Câu 57: Nghĩa thứ hai “Học xứ” ám chỉ là",
+        options: [
+            "A. Những điều cần tu tập và rèn luyện",
+            "B. Các quy định pháp lý cứng nhắc",
+            "C. Phương pháp giữ gìn giới",
+            "D. Đạo đức của gia đình"
+        ],
+        correctAnswer: 0,
+        explanation: "Học xứ (Śikṣāpada) nghĩa là những điều cần học và thực hành rèn luyện trong đời sống tu tập."
+    },
+    {
+        question: "Câu 58: Theo Kinh A Hàm, “Tư niệm” liên quan đến giới được hiểu là",
+        options: [
+            "A. Sự quên lãng tu tập",
+            "B. Chuyên niệm không quên tu hành tam vô lậu học",
+            "C. Học xứ về giới",
+            "D. Giới của tăng ni"
+        ],
+        correctAnswer: 1,
+        explanation: "Tư niệm là sự ghi nhớ chuyên tâm, không xao lãng việc tu hành Tam vô lậu học (Giới - Định - Tuệ)."
+    },
+    {
+        question: "Câu 59: Phân loại theo hành trì, giới được chia thành",
+        options: [
+            "A. Giới cấm và giới cho phép",
+            "B. Giới xuất gia và giới tại gia",
+            "C. Giới trong nhà và ngoài xã hội",
+            "D. Giới thanh tịnh và giới vi phạm (Giữ đúng / vi phạm / Chỉ trì và Tác trì)"
+        ],
+        correctAnswer: 3,
+        explanation: "Khi nói về hành trì thực tiễn, giới chú trọng việc giữ giới đúng (Chỉ trì/Tác trì) hay là phạm giới."
+    },
+    {
+        question: "Câu 60: Trong khái niệm “Hữu lậu giới”, có hai loại chính là",
+        options: [
+            "A. Giới dạy và giới tu",
+            "B. Tịnh lư luật nghi và Giải thoát luật nghi",
+            "C. Giới nội tâm và giới ngoại hình",
+            "D. Giới truyền thống và giới hiện đại"
+        ],
+        correctAnswer: 1,
+        explanation: "Hữu lậu giới (giới chưa đoạn tận mọi phiền não) bao gồm Giải thoát luật nghi (thọ giới để hướng giải thoát) và Tịnh lự luật nghi (giới sinh ra từ thiền định)."
+    },
+    {
+        question: "Câu 61: Khuyết điểm của giới điều theo văn bản là",
+        options: [
+            "A. Không giúp người tu hành đạt được an lạc",
+            "B. Chuyên về giới điều mà dần dần bỏ qua tinh thần của giới",
+            "C. Quá linh hoạt theo từng hoàn cảnh",
+            "D. Không có quy định cụ thể"
+        ],
+        correctAnswer: 1,
+        explanation: "Dễ rơi vào hình thức, chú trọng giữ điều khoản bề ngoài mà quên đi mục tiêu thanh tịnh cốt lõi của giới."
+    },
+    {
+        question: "Câu 62: Trước 12 năm đầu, việc chưa có các quy định về giới được gọi là:",
+        options: [
+            "A. Học xứ",
+            "B. Y pháp nhiếp Tăng",
+            "C. Luật nghi",
+            "D. Giới tự thành"
+        ],
+        correctAnswer: 1,
+        explanation: "12 năm đầu Tăng đoàn sống thanh tịnh bằng cách nghe pháp rồi tự điều phục thân tâm, gọi là Y pháp nhiếp Tăng."
+    },
+    {
+        question: "Câu 63: Khuyết điểm của giới khi chế định dần dần là:",
+        options: [
+            "A. Không chú ý đến tinh thần của giới",
+            "B. Quá phức tạp trong việc thực hành",
+            "C. Không phù hợp với từng hạng người",
+            "D. Quá nhẹ nhàng, không răn đe"
+        ],
+        correctAnswer: 0,
+        explanation: "Tương tự như câu 53/61, khuyết điểm là hành giả dễ mắc vào giới điều cụ thể mà lơ là tinh thần giải thoát chung."
+    },
+    {
+        question: "Câu 64: Nguyên lý “liên quan đến tinh thần nhiều hơn” trong giới luật dựa trên:",
+        options: [
+            "A. Luật trừng phạt",
+            "B. Lý duyên khởi",
+            "C. Quy định ngoại đạo",
+            "D. Học xứ của pháp"
+        ],
+        correctAnswer: 1,
+        explanation: "Giới không phải luật trừng phạt cứng nhắc, mà dựa trên lý duyên khởi (có nhân có duyên thì sinh quả)."
+    },
+    {
+        question: "Câu 65: “Duyên sanh pháp” được hiểu là:",
+        options: [
+            "A. Quy tắc cố định không thay đổi",
+            "B. Mối quan hệ nhân quả tương ưng",
+            "C. Sự phân biệt giữa thiện và ác",
+            "D. Học xứ chỉ dành cho tăng ni"
+        ],
+        correctAnswer: 1,
+        explanation: "Duyên sanh pháp chỉ ra rằng mọi sự vật hiện tượng đều sinh khởi dựa trên mối quan hệ nhân-duyên-quả."
+    },
+    {
+        question: "Câu 66: “Thập nhị nhân duyên” là minh chứng cho:",
+        options: [
+            "A. Sự phát sinh của các quy định giới",
+            "B. Quy luật nhân quả trong mọi hiện tượng",
+            "C. Cách thức hành trì giới tại gia",
+            "D. Phương pháp thiền định của Đức Phật"
+        ],
+        correctAnswer: 1,
+        explanation: "12 nhân duyên cho thấy mọi hiện tượng sinh diệt đều tuân theo quy luật nhân quả, duyên sinh."
+    },
+    {
+        question: "Câu 67: Nguyên tắc chế giới cơ bản của Đức Phật là gì?",
+        options: [
+            "a. Chế giới dựa trên kinh điển",
+            "b. Chế giới một cách hệ thống và đầy đủ ngay từ đầu",
+            "c. Tùy phạm mà chế"
+        ],
+        correctAnswer: 2,
+        explanation: "Đức Phật không thiết lập giới điều trước, mà đợi khi có đệ tử vi phạm mới căn cứ vào đó để chế giới (tùy phạm mà chế)."
+    },
+    {
+        question: "Câu 68: Theo Kinh Tạp A Hàm Q33, thánh đệ tử trụ phải:",
+        options: [
+            "A. Chỉ giữ giới mà không cần học hỏi",
+            "B. Thực hành giữ giới, luật nghi, oai nghi và hành xứ một cách cụ túc",
+            "C. Chỉ quan tâm đến hình thức bên ngoài",
+            "D. Tự ý thay đổi giới theo ý thích"
+        ],
+        correctAnswer: 1,
+        explanation: "Kinh mô tả thánh đệ tử an trụ Ba-la-đề-mộc-xoa luật nghi, đầy đủ oai nghi, hành xứ và thọ trì học giới."
+    },
+    {
+        question: "Câu 69: Theo “Kinh Trung bộ, kinh Trạm xe”, 7 trạm xe của người tu tập bắt đầu từ:",
+        options: [
+            "A. Chánh pháp cửu trụ",
+            "B. Giới (tuân giữ nghiêm túc các học xứ đã học)",
+            "C. Đoạn nghi",
+            "D. Tri kiến thanh tịnh"
+        ],
+        correctAnswer: 1,
+        explanation: "Tiến trình 7 trạm xe (Thanh tịnh) luôn phải bắt đầu từ trạm nền tảng đầu tiên là Giới thanh tịnh."
+    },
+    {
+        question: "Câu 70: Đoạn tận thân kiến, giới cấm thủ và nghi đạt được gì?",
+        options: [
+            "A. Tư Đà Hàm",
+            "B. A Na Hàm",
+            "C. Tu Đà Hoàn",
+            "D. A La Hán"
+        ],
+        correctAnswer: 2,
+        explanation: "Khi đoạn tận 3 kiết sử đầu tiên (Thân kiến, Giới cấm thủ, Nghi), hành giả sẽ chứng đắc Sơ quả Tu-đà-hoàn."
+    }
 ];
 
 // Quiz State
